@@ -40,6 +40,7 @@
   margin-bottom: 20px;
   padding-bottom: 30px;
   padding-bottom: 50px;
+
 }
 
 *, *:after, *:before {
@@ -85,7 +86,9 @@
         -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
         -webkit-text-size-adjust: 100%;
  }
-   
+   .main {
+    padding-right: 0;
+   }
 
 
 /* #header styles
@@ -98,9 +101,10 @@
         left: 0;
         top: 0;
         margin: 0 auto;
+        padding-top: 5px;
     }
     .header-img {
-        width: 40%;
+        width: 38%;
         margin: 0 auto;
         display: block;
     }
@@ -167,11 +171,12 @@
 /* #Typography
 ================================================== */
     h1 {
-        font-size: 4.2em;
+        font-size: 4.6em;
         font-style: bold;
         display: inline-block;
         padding-left:10px;
         margin: 0 auto;
+        vertical-align: top;
 }
 
     .strikethru {
