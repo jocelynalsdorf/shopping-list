@@ -1,0 +1,152 @@
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline; }
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+        display: block; }
+    body {
+        line-height: 1; }
+    ol, ul {
+        list-style: none; }
+   
+    table {
+        border-collapse: collapse;
+        border-spacing: 0; }
+
+
+
+/* #Base 960 Grid
+================================================== */
+
+
+[class*='col-'] {
+  float: left;
+}
+.col-3-3 {
+    width: 99.99%;
+}
+
+.col-2-3 {
+  width: 66.66%;
+}
+.col-1-3 {
+  width: 33.33%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+[class*='col-'] {
+  padding-right: 20px;
+}
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
+.grid-pad {
+  padding: 20px 0 20px 20px;
+}
+.grid-pad > [class*='col-']:last-of-type {
+  padding-right: 20px;
+}
+
+/* #Clearing
+================================================== */
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+/* #Site Styles
+================================================== */
+
+
+    body {
+        background: #fff;
+        font-family: 'Amatic SC', cursive;
+        color: #444;
+        -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+        -webkit-text-size-adjust: 100%;
+ }
+    .col-1-3 {
+       
+    }
+    
+
+
+/* #header styles
+================================================= */
+
+    .header {
+        background-color: #addedd;
+        width: 100%;
+        height:85px;
+        left: 0;
+        top: 0;
+        margin: 0 auto;
+    }
+    .header-img {
+        width: 40%;
+        margin: 0 auto;
+        display: block;
+    }
+
+/* main shopping list area
+================================================= */
+   
+    .shplist-bkg {
+        background-color: #d6d6d6;
+        width: 100%;
+        height: 475px;
+        border: 3px #959595 solid;
+    }
+
+
+/*footer styles
+================================================== */
+
+.footer {
+        background-color: #addedd;
+        width: 100%;
+        height:40px;
+       
+}
+/* #Typography
+================================================== */
+    h1 {
+        font-size: 4.2em;
+        font-style: bold;
+        display: inline-block;
+        padding-left:10px;
+        margin: 0 auto;
+}
+
+    .strikethru {
+
+}
+
+/* #Forms
+================================================== */
+
+
+
+/* #Images
+================================================== */
+
+
+    
