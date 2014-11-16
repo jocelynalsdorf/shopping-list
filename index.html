@@ -7,8 +7,8 @@
 	<link rel="stylesheet" href="css/styles.css">
 	<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/font-awesome-4.2.0/css/font-awesome.min.css">
-	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="js/app.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/main.js"></script>
 
 </head>
 <body>
@@ -27,19 +27,19 @@
 	 	  <div class="shplist-bkg">
 	 		<div class="list-top">
 	 		  <form>
-	 			<input class="list-text-box" type="text" placeholder="Enter item and click Add me!"/>
+	 			<input id="list-text-box" class="text-box" type="text" placeholder="Enter item and click Add me!"/>
   				<button type="submit">Add me!</button>
   			  </form>
 	 		</div>
 	 		<div class="list-main">
 	 		  <ul class="shp-list">
-	 			<li class="shp-items"><i class="fa fa-check-square-o"></i></i>food items<i class="fa fa-ban"></i></li>
-	 			<li class="shp-items"><i class="fa fa-square-o"></i>food items<i class="fa fa-ban"></i></li>
-	 			<li class="shp-items"><i class="fa fa-square-o"></i>food items<i class="fa fa-ban"></i></li>
-	 			<li class="shp-items"><i class="fa fa-square-o"></i>food items<i class="fa fa-ban"></i></li>
-	 			<li class="shp-items"><i class="fa fa-square-o"></i>food items<i class="fa fa-ban"></i></li>
-	 			<li class="shp-items"><i class="fa fa-square-o"></i>food items<i class="fa fa-ban"></i></li>
-	 			<li class="shp-items"><i class="fa fa-square-o"></i>food items<i class="fa fa-ban"></i></li>
+	 			<li class="shp-items highlighted"><i class="fa fa-check-square-o"></i></i><span>food items</span><i class="fa fa-ban"></i></li>
+	 			<li class="shp-items"><i class="fa fa-square-o"></i><span>food items</span><i class="hide-element fa fa-ban"></i></li>
+	 			<li class="shp-items"><i class="fa fa-square-o"></i>food items<i class="hide-element fa fa-ban"></i></li>
+	 			<li class="shp-items"><i class="fa fa-square-o"></i>food items<i class="hide-element fa fa-ban"></i></li>
+	 			<li class="shp-items"><i class="fa fa-square-o"></i>food items<i class="hide-element fa fa-ban"></i></li>
+	 			<li class="shp-items"><i class="fa fa-square-o"></i>food items<i class="hide-element fa fa-ban"></i></li>
+	 			<li class="shp-items"><i class="fa fa-square-o"></i>food items<i class="hide-element fa fa-ban"></i></li>
 	 		  </ul>
 	 		</div>
 	 		<div class="list-bottom">	

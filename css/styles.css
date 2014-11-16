@@ -91,6 +91,16 @@
    }
 
 
+/*JQ styles
+================================================ */
+.highlighted {
+   text-decoration: line-through;
+
+}
+
+.hide-element.fa.fa-ban {
+    display: none;
+}
 /* #header styles
 ================================================= */
 
@@ -120,7 +130,11 @@
         position: relative;
         overflow: hidden;
     }
+    #list-text-box {
 
+
+    }
+    
     .list-main {
         height: 100%;
         
