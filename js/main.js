@@ -9,7 +9,7 @@ $(document).ready(function() {
      }
      else {
      
-     	$("ul").append("<li class=\"shp-items\"><i class=\"fa fa-square-o\"></i><span>" + textValue + "</span><i class=\"fa fa-ban\"></i></li>");
+     	$("ul").append("<li class=\"shp-items\"><i class=\"hide-element fa fa-square-o\"></i><span>" + textValue + "</span><i class=\"hide-element fa fa-ban\"></i></li>");
 			}
 	});
      
