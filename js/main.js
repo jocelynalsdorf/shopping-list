@@ -20,7 +20,12 @@ $('.shp-list').on('click', '.fa.fa-square-o', function() {
  $(this).remove();
 });
 
-
+$('.shp-list').on('click', '.fa.fa-check-square-o', function() {
+ var checkedTwo = $("<i class=\"fa fa-square-o\"></i>");
+ $(this).after(checkedTwo);
+ $("span").removeClass("highlighted");
+ $(this).remove();
+});
          
 
 });
