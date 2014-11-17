@@ -134,7 +134,7 @@
 
 
     }
-    
+
     .list-main {
         height: 100%;
         
@@ -242,6 +242,9 @@ button {
     font-weight: lighter;
     font-size: 0.8em;
    
+}
+.fa.fa-check-square-o {
+    display: hidden;
 }
 
 /* media queries

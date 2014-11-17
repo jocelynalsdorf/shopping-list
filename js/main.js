@@ -16,7 +16,15 @@ $(document).ready(function() {
 $('.shp-list').on('click', '.fa.fa-square-o', function() {
   alert('Do stuff here!');
 });
-            
+
+$(".shp-items").mouseenter(function() {
+		
+		$(".fa.fa-ban").show();
+	})
+	.mouseleave(function() {
+		$(".fa.fa-ban").hide();
+		
+	})            
 
 });
 
