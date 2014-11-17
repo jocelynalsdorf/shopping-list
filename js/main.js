@@ -14,17 +14,13 @@ $(document).ready(function() {
 	});
     
 $('.shp-list').on('click', '.fa.fa-square-o', function() {
-  alert('Do stuff here!');
+ var checked = $("<i class=\"fa fa-check-square-o\"></i>");
+ $(this).after(checked);
+ $(this).remove();
 });
 
-$(".shp-items").mouseenter(function() {
-		
-		$(".fa.fa-ban").show();
-	})
-	.mouseleave(function() {
-		$(".fa.fa-ban").hide();
-		
-	})            
+
+         
 
 });
 
