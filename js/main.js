@@ -9,10 +9,14 @@ $(document).ready(function() {
      }
      else {
      
-     	$("ul").append("<li class=\"shp-items\"><i class=\"hide-element fa fa-square-o\"></i><span>" + textValue + "</span><i class=\"hide-element fa fa-ban\"></i></li>");
+     	$("ul").append("<li class=\"shp-items\"><i class=\"fa fa-square-o\"></i><span>" + textValue + "</span><i class=\"hide-element fa fa-ban\"></i></li>");
 			}
 	});
-     
+    
+$('.shp-list').on('click', '.fa.fa-square-o', function() {
+  alert('Do stuff here!');
+});
+            
 
 });
 
