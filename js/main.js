@@ -16,6 +16,7 @@ $(document).ready(function() {
 $('.shp-list').on('click', '.fa.fa-square-o', function() {
  var checked = $("<i class=\"fa fa-check-square-o\"></i>");
  $(this).after(checked);
+ $("span").addClass("highlighted");
  $(this).remove();
 });
 
