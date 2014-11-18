@@ -37,5 +37,9 @@ $(".shp-list").on("mouseleave", ".shp-items", function() {
 	$(this).children(".fa.fa-ban").hide();
 });         
 
+$(".shp-list").on("click", ".fa.fa-ban", function() {
+	$(this).parent(".shp-items").hide();
+});
+
 });
 
