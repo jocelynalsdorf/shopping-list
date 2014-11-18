@@ -16,17 +16,26 @@ $(document).ready(function() {
 $('.shp-list').on('click', '.fa.fa-square-o', function() {
  var checked = $("<i class=\"fa fa-check-square-o\"></i>");
  $(this).after(checked);
- $("span").addClass("highlighted");
+ $(this).parent().addClass("highlighted");
  $(this).remove();
+ 
 });
 
 $('.shp-list').on('click', '.fa.fa-check-square-o', function() {
  var checkedTwo = $("<i class=\"fa fa-square-o\"></i>");
  $(this).after(checkedTwo);
- $("span").removeClass("highlighted");
+  $(this).parent().removeClass("highlighted");
  $(this).remove();
+
 });
-         
+
+  $(".shp-list").on("mouseenter", ".shp-items", function() {
+	$(this).children(".fa.fa-ban").show();
+});
+
+$(".shp-list").on("mouseleave", ".shp-items", function() {
+	$(this).children(".fa.fa-ban").hide();
+});         
 
 });
 
